@@ -28,6 +28,10 @@ public class HomePage {
 		return createNewEdt;
 	}
 
-	
+	@FindBy(linkText = "Products")
+	private WebElement ProductsEdt;
+	public WebElement getProductsEdt() {
+		return ProductsEdt;
+	}
 
 }
