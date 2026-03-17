@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests" tc="2">
+  <test thread-count="2" name="Test-1">
+  <parameter name="BROWSER" value="firefox"/>
+    <classes>
+      <class name="com.PracticeOrgTest.SampleContact"/>
+    </classes>
+  </test> <!-- Test -->
+   <test thread-count="5" name="Test-2">
+    <parameter name="BROWSER" value="chrome"/>
+    <classes>
+      <class name="com.comcast.crm.orgtest.SampleOrgTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

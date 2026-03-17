@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="com.comcast.crm.orgtest.SampleOrgTest">
+      <methods>
+      <include name="CreateOrgTest"/>
+      </methods>
+      </class>
+      <class name="com.PracticeOrgTest.SampleContact">
+      <methods>
+      <include name="SampleContactTest"/>
+      </methods>
+      </class>class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
