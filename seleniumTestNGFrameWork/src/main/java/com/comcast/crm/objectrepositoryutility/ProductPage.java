@@ -10,5 +10,8 @@ public class ProductPage {
 
 	@FindBy(name="search_text")
 	private WebElement searchEdt;
+	
+	@FindBy(xpath="//input[@name='submit']")
+	private WebElement searchBtn;
 
 }
